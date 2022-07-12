@@ -1,0 +1,45 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  
+}
+
+.App {
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  background-color: #fff;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-theme {
+  background-color: aquamarine;
+  font-family: 'Fira Code', monospace;
+  border-radius: 8px;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 2rem
+}
+
+.dark-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-theme h1 {
+  background-color: #000;
+}
+
+.dark-theme .button-theme {
+  border-color: #fff;
+}
+
+.light-theme {
+  /* background-color: #fff; */
+  color: #000;
+}
